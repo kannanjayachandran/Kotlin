@@ -1,4 +1,4 @@
-fun fun main(args: Array<String>) {
+fun main(args: Array<String>) {
     
     // we can create variables using 'var'
 
@@ -8,9 +8,12 @@ fun fun main(args: Array<String>) {
     // we can use 'val' to create immutable variables
     val job = "Hero" 
     var age = 10
-
+    
+    println("Name is "+ name + " with the watch "+ watchName)
+    println("Job is " + job + " Age is " + age)
 
     // we can add a '?' to explicity create a null value
-    var home: string? = null    
+    var home: String? = null 
     
+    println("Value of null: " + home)  
 }
