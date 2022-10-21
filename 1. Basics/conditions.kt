@@ -1,4 +1,4 @@
-fun fun main(args: Array<String>) {
+fun main(args: Array<String>) {
 
     var greeting = "Hello world" 
 
@@ -7,4 +7,9 @@ fun fun main(args: Array<String>) {
     }else{
         println("⚠️")
     }
+
+   // ternary operator
+    var a= if (greeting != null) "🚀" else "⚠️"
+
+    println(a)
 }
